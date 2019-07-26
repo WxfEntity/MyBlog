@@ -70,7 +70,7 @@
   }
   .pre{
     margin-top:40px;
-    width: 60%;
+    width: 50%;
   }
   .card{
     width: 100%;
