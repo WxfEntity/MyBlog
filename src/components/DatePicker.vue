@@ -1,5 +1,5 @@
 <template>
-  <el-calendar v-model="value">
+  <el-calendar v-model="value" class="datePick">
   </el-calendar>
 </template>
 
@@ -14,5 +14,4 @@
 </script>
 
 <style scoped>
-
 </style>

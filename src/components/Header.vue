@@ -12,7 +12,7 @@
       <el-menu-item index="2"  class="menus">文章列表</el-menu-item>
       <el-menu-item index="3"  class="menus">最热文章</el-menu-item>
       <el-menu-item index="4" class="menus"><a href="" target="_blank">订单管理</a></el-menu-item>
-      <input class="input"></input>
+      <!--<input class="input"></input>-->
     </el-menu>
   </div>
 </template>

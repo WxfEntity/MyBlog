@@ -7,8 +7,10 @@
     </Preview>
     <Page id="page">
     </Page>
-    <div>
-    </div>
+
+      <DatePicker id="date">
+
+      </DatePicker>
   </div>
 </template>
 
@@ -16,8 +18,9 @@
   import Preview from './Preview.vue';
   import Page from './Page.vue';
   import Header from './Header.vue';
+  import DatePicker from './DatePicker.vue'
   export default {
-      components: {Preview,Page,Header},
+      components: {Preview,Page,Header,DatePicker},
       name: "Home"
     }
 </script>
@@ -39,5 +42,12 @@
     width: 100%;
     left: 0%;
     z-index:9999
+  }
+  #date{
+    position:absolute;
+    top:70px;
+    width: 20%;
+    height: 50%;
+    left: 75%;
   }
 </style>
